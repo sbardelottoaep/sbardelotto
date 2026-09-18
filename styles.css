@@ -461,3 +461,14 @@ footer {
   padding: 4px;
 }
 .client-link:hover { color: var(--accent); }
+
+/* 3rd card alone on bottom row — centered */
+.work-card-solo {
+  grid-column: 1 / -1;
+  max-width: 50%;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (max-width: 720px) {
+  .work-card-solo { max-width: 100%; }
+}
